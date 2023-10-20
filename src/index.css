@@ -20,14 +20,11 @@
 
 .text-gradient {
   background: radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+    circle,
+    rgb(114, 83, 45) 20%,
+    rgb(88, 69, 37) 100%
   );
+
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -35,45 +32,43 @@
 }
 
 .bg-blue-gradient {
-  background: linear-gradient(
-    157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
+  background: radial-gradient(
+    circle,
+    rgb(114, 83, 45) 20%,
+    rgb(88, 69, 37) 100%
   );
 }
 
 .bg-black-gradient {
-  background: linear-gradient(
-    144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+  background: radial-gradient(
+    circle,
+    rgb(114, 83, 45) 20%,
+    rgb(88, 69, 37) 100%
   );
 }
 
 .bg-black-gradient-2 {
-  background: linear-gradient(
-    -168.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+  background: radial-gradient(
+    circle,
+    rgb(107, 84, 57) 20%,
+    rgb(67, 53, 30) 100%
   );
 }
 
 .bg-gray-gradient {
-  background: linear-gradient(
-    153.47deg,
-    rgba(255, 255, 255, 0) -341.94%,
-    #14101d 95.11%
+  background: radial-gradient(
+    circle,
+    rgb(114, 83, 45) 20%,
+    rgb(88, 69, 37) 100%
   );
 }
 
 .bg-discount-gradient {
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  background: radial-gradient(
+    circle,
+    rgb(114, 83, 45) 20%,
+    rgb(88, 69, 37) 100%
+  );
 }
 
 .box-shadow {

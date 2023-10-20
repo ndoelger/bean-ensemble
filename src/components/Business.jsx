@@ -23,10 +23,10 @@ const FeatureCard = ({ icon, title, content, index }) => (
 );
 
 const Business = () => (
-  <section id="features" className={layout.section}>
-    <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>Tailored to Your Tastes</h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+  <section id="features" className={layout.section2}>
+    <div className={layout.sectionInfo2}>
+      <h2 className={styles.heading3}>Tailored to Your Tastes</h2>
+      <p className={`${styles.paragraph2} max-w-[470px] mt-5`}>
         Experience the Convenience of Having Handpicked Coffee Delights
         Delivered Right to Your Doorstep, Ensuring You Never Run Out of Your
         Favorite Brew. Discover a World of Coffee, Crafted Just for You.
