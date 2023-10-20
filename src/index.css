@@ -7,9 +7,8 @@
 :root {
   --black-gradient: linear-gradient(
     144.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
+    rgb(114, 83, 45) 20%,
+    rgb(88, 69, 37) 100%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
 }
@@ -50,8 +49,8 @@
 .bg-black-gradient-2 {
   background: radial-gradient(
     circle,
-    rgb(107, 84, 57) 20%,
-    rgb(67, 53, 30) 100%
+    rgb(114, 83, 45) 20%,
+    rgb(88, 69, 37) 100%
   );
 }
 
@@ -69,6 +68,10 @@
     rgb(114, 83, 45) 20%,
     rgb(88, 69, 37) 100%
   );
+}
+
+.CTA-gradient {
+  background: #673709 100%;
 }
 
 .box-shadow {
@@ -120,7 +123,11 @@
 }
 
 .blue__gradient {
-  background: linear-gradient(180deg, rgba(188, 165, 255, 0) 0%, #214d76 100%);
+  background: radial-gradient(
+    circle,
+    rgb(114, 83, 45) 20%,
+    rgb(88, 69, 37) 100%
+  );
   filter: blur(123px);
 }
 
